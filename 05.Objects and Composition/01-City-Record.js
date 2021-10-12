@@ -1,11 +1,14 @@
 function createRecord(name, population, treasury) {
-    const city = {};
+  const city = {};
 
-    city.name = name;
-    city.population = population;
-    city.treasury = treasury;
+  city.name = name;
+  city.population = population;
+  city.treasury = treasury;
 
-    return city;
+  return city;
 }
 
-createRecord ('Tortuga', 7000, 15000);
+createRecord("Tortuga", 7000, 15000);
+
+//You will receive a city’s name (string), population (number), and treasury (number) as arguments,
+//which you will need to set as properties of an object and return it.
