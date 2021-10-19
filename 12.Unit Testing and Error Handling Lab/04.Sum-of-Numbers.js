@@ -5,6 +5,7 @@ function sum(arr) {
     sum += Number(num);
   }
   return sum;
+  console.log(sum);
 }
 
 // Your tests will be supplied with a function named &#39;sum()&#39;. It should meet the following requirements:
