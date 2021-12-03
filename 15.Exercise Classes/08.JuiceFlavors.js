@@ -1,3 +1,4 @@
+function solve() {}
 // You will be given different juices, as strings. You will also receive quantity as a number. If you receive a juice, you
 // already have, you must sum the current quantity of that juice, with the given one. When a juice reaches 1000
 // quantity, it produces a bottle. You must store all produced bottles and you must print them at the end.
